@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="edit_user.EditUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff981f" height="70.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="881.0" />
+      <Label layoutX="30.0" layoutY="21.0" text="Edit User">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchButton" layoutX="721.0" layoutY="94.0" mnemonicParsing="false" onAction="#search" prefHeight="37.0" prefWidth="123.0" style="-fx-background-color: green;" text="Search" textFill="WHITE" />
+      <TextField fx:id="userNameSearch" layoutX="254.0" layoutY="97.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <Label layoutX="46.0" layoutY="105.0" text="User Name To Search" />
+      <TextField fx:id="userName" layoutX="254.0" layoutY="165.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <Label layoutX="46.0" layoutY="171.0" text="New User Name(English)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="222.0" text="New Login Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="278.0" text="New Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="325.0" prefHeight="25.0" prefWidth="174.0" text="New confirm password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="381.0" text="New User role">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password" layoutX="254.0" layoutY="266.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="confirmPassword" layoutX="254.0" layoutY="319.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="userRole" layoutX="254.0" layoutY="375.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="loginName" layoutX="254.0" layoutY="216.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <Button fx:id="backButton" layoutX="281.0" layoutY="425.0" mnemonicParsing="false" onAction="#close" prefHeight="37.0" prefWidth="114.0" style="-fx-border-color: red; -fx-background-color: white;" text="Close" textFill="RED" />
+      <Button fx:id="editUser" layoutX="505.0" layoutY="425.0" mnemonicParsing="false" onAction="#edit" prefHeight="37.0" prefWidth="114.0" style="-fx-background-color: green;" text="Update" textFill="WHITE" />
+   </children>
+</Pane>

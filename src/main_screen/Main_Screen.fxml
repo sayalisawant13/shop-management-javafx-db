@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="main_screen.MainScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff981f" height="68.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="709.0" />
+      <Label layoutX="29.0" layoutY="17.0" text="Main Screen" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="userManagement" layoutX="208.0" layoutY="135.0" mnemonicParsing="false" onAction="#showUserManagementScreen" prefHeight="43.0" prefWidth="287.0" style="-fx-background-color: #ff981f;" text="User Management" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="productManagement" layoutX="208.0" layoutY="198.0" mnemonicParsing="false" onAction="#showProductManagementScreen" prefHeight="43.0" prefWidth="287.0" style="-fx-background-color: #ff981f;" text="Product Management" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backToMainScreen" layoutX="210.0" layoutY="274.0" mnemonicParsing="false" onAction="#backToMainScreen" prefHeight="43.0" prefWidth="287.0" style="-fx-background-color: white; -fx-border-color: #ff981f;" text="Quit" textFill="#ff981f">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

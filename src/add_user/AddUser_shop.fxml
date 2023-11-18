@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="add_user.AddUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff981f" height="67.0" stroke="BLACK" strokeType="INSIDE" width="748.0" />
+      <Label layoutX="21.0" layoutY="19.0" text="Add User">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="234.0" layoutY="96.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <Label layoutX="48.0" layoutY="102.0" text="User Name(English)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="163.0" text="Login Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="221.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="280.0" prefHeight="25.0" prefWidth="131.0" text="confirm password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="342.0" text="User role">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password" layoutX="234.0" layoutY="215.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="confirmPassword" layoutX="234.0" layoutY="274.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="userRole" layoutX="234.0" layoutY="336.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <TextField fx:id="loginName" layoutX="234.0" layoutY="157.0" prefHeight="37.0" prefWidth="427.0" style="-fx-border-color: black;" />
+      <Button fx:id="proceed" layoutX="322.0" layoutY="411.0" mnemonicParsing="false" onAction="#close" prefHeight="37.0" prefWidth="114.0" style="-fx-border-color: red; -fx-background-color: white;" text="Close" textFill="RED" />
+      <Button fx:id="backToUserManagementScreen" layoutX="491.0" layoutY="411.0" mnemonicParsing="false" onAction="#save" prefHeight="37.0" prefWidth="114.0" style="-fx-background-color: green;" text="Save" textFill="WHITE" />
+   </children>
+</Pane>

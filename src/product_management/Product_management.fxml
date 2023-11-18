@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="product_management.ProductManagementScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="addProduct" layoutX="196.0" layoutY="83.0" mnemonicParsing="false" onAction="#showAddProductOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Add Product" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="editProduct" layoutX="196.0" layoutY="146.0" mnemonicParsing="false" onAction="#showEditProductOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Edit Product" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchProduct" layoutX="196.0" layoutY="209.0" mnemonicParsing="false" onAction="#showSearchProductOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Search Product" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteProduct" layoutX="196.0" layoutY="269.0" mnemonicParsing="false" onAction="#showDeleteProductOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Delete Product" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Quit" layoutX="196.0" layoutY="332.0" mnemonicParsing="false" onAction="#quitProductManagement" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: white; -fx-border-color: #ffa600;" text="Quit" textFill="#ff981f">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f78d02" height="67.0" stroke="BLACK" strokeType="INSIDE" width="715.0" />
+      <Label layoutX="31.0" layoutY="18.0" prefHeight="31.0" prefWidth="216.0" text="Product Management">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="user_management.UserManagementScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f78d02" height="67.0" stroke="BLACK" strokeType="INSIDE" width="691.0" />
+      <Label layoutX="25.0" layoutY="16.0" prefHeight="31.0" prefWidth="190.0" text="User Management" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="addUser" layoutX="194.0" layoutY="99.0" mnemonicParsing="false" onAction="#showAddUserOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Add User" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="editUser" layoutX="194.0" layoutY="166.0" mnemonicParsing="false" onAction="#showEditUserOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Edit User" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchUser" layoutX="194.0" layoutY="233.0" mnemonicParsing="false" onAction="#showSearchUserOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Search User" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteUser" layoutX="194.0" layoutY="299.0" mnemonicParsing="false" onAction="#showDeleteUserOptions" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: #f78d02;" text="Delete User" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="194.0" layoutY="366.0" mnemonicParsing="false" onAction="#quitUserManagement" prefHeight="47.0" prefWidth="324.0" style="-fx-background-color: white; -fx-border-color: #ffa600;" text="Quit" textFill="#ff981f">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

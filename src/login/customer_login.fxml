@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="login.LoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="726.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="userName" layoutX="102.0" layoutY="239.0" prefHeight="38.0" prefWidth="226.0" promptText="User Name" />
+      <TextField fx:id="password" layoutX="102.0" layoutY="296.0" prefHeight="38.0" prefWidth="226.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="102.0" layoutY="373.0" mnemonicParsing="false" onAction="#login" prefHeight="38.0" prefWidth="226.0" style="-fx-background-color: #ff981f;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Label layoutX="183.0" layoutY="189.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="115.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff981f" height="506.0" layoutX="470.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="259.0" />
+      <AnchorPane layoutX="115.0" layoutY="43.0" prefHeight="113.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 15px;">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="126.0" layoutX="28.0" layoutY="17.0">
+               <image>
+                  <Image url="@./shopping-cart-xxl.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Line endX="100.0" layoutX="215.0" layoutY="354.0" startX="-100.0" />
+   </children>
+</Pane>
